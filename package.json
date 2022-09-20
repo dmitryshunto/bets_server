@@ -1,0 +1,28 @@
+{
+  "name": "investigation_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node ./src/index.ts",
+    "fs_func": "ts-node ./src/fs_functions.ts",
+    "build": "npm run compile-typescript",
+    "compile-typescript": "tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "csv-writer": "^1.6.0",
+    "moment": "^2.29.4",
+    "mysql2": "^2.3.3",
+    "puppeteer": "^15.5.0",
+    "ts-node": "^10.4.0",
+    "typescript": "^4.5.3",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.36",
+    "@types/node": "^16.11.13"
+  }
+}
